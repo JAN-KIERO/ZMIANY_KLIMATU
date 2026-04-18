@@ -14,6 +14,8 @@
 
 ## Artykuły przewodniki, które pomogą mi podczas programowania
 [DOKUMENTACJA DISCORD](https://discordpy.readthedocs.io/en/stable/#)
+
+
 [WIKIPEDIA ZMIANY_KLIMATU](https://pl.wikipedia.org/wiki/Zmiana_klimatu)
 
 
