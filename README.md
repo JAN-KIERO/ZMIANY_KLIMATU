@@ -12,7 +12,7 @@ Bot oferuje szeroki wachlarz narzędzi:
 
 ## 🛠️ Wymagania systemowe
 Do uruchomienia bota potrzebujesz:
-- Python 3.8+
+- Python 3.11.1
 - Biblioteki: `discord.py`, `requests`, `Pillow`, `tensorflow` (dla modelu Keras)
 - Plik `keras_model.h5` oraz `labels.txt` w folderze bota.
 
