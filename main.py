@@ -150,6 +150,16 @@ async def play(ctx):
     await ctx.send(embed=embed)
     
 @bot.command()
+async def quiz(ctx):
+    embed = discord.Embed(
+        title="Quiz",
+        description="Kliknij powyżej, aby rozwiązać quiz!",
+        color=0x2ECC71, # Zielony kolor
+        url="https://wielkitest.tvp.pl/44561817/rozwiaz-wielki-test-o-ekologii",
+    )
+    await ctx.send(embed=embed)
+    
+@bot.command()
 async def help_me(ctx):
     await ctx.send("**🤖 MENU POMOCY EKO-BOTA**")
     await ctx.send("👋 `$hello` - Przywitaj się z botem!")
@@ -161,16 +171,6 @@ async def help_me(ctx):
     await ctx.send("🗺️ `$mapa` - Interaktywna mapa emisji na żywo.")
     await ctx.send("🚗 `$obl [km] [spalanie] [paliwo]` - Kalkulator emisji auta.")
     await ctx.send("🎵 `$play` - Playlisty o ekologii.")
-    
-
-
-
-
-
-
-
-
-
-
+    await ctx.send("🌱 $quiz - Rozwiąż test i zostań eko-ekspertem.")
 
 bot.run("")
